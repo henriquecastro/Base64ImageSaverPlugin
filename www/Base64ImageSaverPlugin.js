@@ -42,6 +42,6 @@
             var imageData = base64Data.replace(/data:image\/png;base64,/,'');
             return cordova.exec(successCallback, failureCallback, "Base64ImageSaverPlugin","saveImageDataToLibrary",[imageData]);
         }
-    }
+    }    
   };
   

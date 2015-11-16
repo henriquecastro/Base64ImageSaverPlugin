@@ -32,10 +32,10 @@
 
 <!--
         <header-file src="src/ios/Base64ImageSaverPlugin.h" />
-
-        <source-file src="src/ios/Base64ImageSaverPlugin.m"
-            compiler-flags="-fno-objc-arc" />
 -->
+
+        <source-file src="src/ios/Base64ImageSaverPlugin.swift" />
+
     </platform>
 
     <!-- android -->
