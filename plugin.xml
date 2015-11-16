@@ -12,7 +12,7 @@
     <description>This plugin allows you to save Base64 Data to the iOS Photo Library, or Android Gallery from your app.</description>
     <author>Tommy-Carlos Williams - tommy@devgeeks.org</author>
     <author>Simba Zhang - solderzzc@gmail.com</author>
-    <author>August Heegaard - august@heegaard.org
+    <author>August Heegaard - august@heegaard.org</author>
     <keywords>base64,png,save,canvas,image,photo library</keywords>
 
     <license>MIT</license>
@@ -25,7 +25,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="Base64ImageSaverPlugin">
-                <param name="ios-package" value="Base64ImageSaverPlugin"/>
+                <param name="ios-package" value="Base64ImageSaverPlugin" />
                 <param name="onload" value="true" />
             </feature>
         </config-file>
