@@ -48,7 +48,7 @@ public class Base64ImageSaverPlugin: CDVPlugin {
 //        
 //    }
     
-    private func saveImageDataToLibrary(command: CDVInvokedUrlCommand) -> Void {
+    public func saveImageDataToLibrary(command: CDVInvokedUrlCommand) -> Void {
         
         if let base64String = command.argumentAtIndex(0) as? String, imageData = NSData(base64EncodedString: base64String, options: []), image = UIImage(data: imageData) {
             
