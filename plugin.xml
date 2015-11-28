@@ -1,7 +1,7 @@
 <plugin xmlns="http://www.phonegap.com/ns/plugins/1.0"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    id="com.totus-labs.base64imagesaverplugin"
-    version="0.7.0">
+    id="br.com.helpper.base64imagesaverplugin"
+    version="0.8.0">
 
     <name>Base64ImageSaverPlugin</name>
 
@@ -29,10 +29,6 @@
                 <param name="onload" value="true" />
             </feature>
         </config-file>
-
-<!--
-        <header-file src="src/ios/Base64ImageSaverPlugin.h" />
--->
 
         <source-file src="src/ios/Base64ImageSaverPlugin.swift" />
 
