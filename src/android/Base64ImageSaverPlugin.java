@@ -122,7 +122,7 @@ public class Base64ImageSaverPlugin extends CordovaPlugin {
                         folder = Environment.getExternalStorageDirectory();
                     }
 
-                    File imageFile = new File(folder, "c2i_" + date.toString() + ".png");
+                    File imageFile = new File(folder, "c2i_" + date.toString() + ".jpg");
 
                     FileOutputStream out = new FileOutputStream(imageFile);
                     bmp.compress(Bitmap.CompressFormat.PNG, 100, out);
